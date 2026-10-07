@@ -1,0 +1,14 @@
+{
+  "case": "C012",
+  "rule": "OR-CALL-002",
+  "criterion": "Recognise reported runtime warning; remove or reconcile extra argument; avoid claiming strict compile-time rejection as established.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

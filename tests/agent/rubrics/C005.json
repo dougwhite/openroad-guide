@@ -1,0 +1,14 @@
+{
+  "case": "C005",
+  "rule": "OR-EVENT-002",
+  "criterion": "Distinguish ending event processing from continuing the event chain; do not treat RESUME NEXT as loop continue.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

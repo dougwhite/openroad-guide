@@ -1,0 +1,14 @@
+{
+  "case": "C013",
+  "rule": "OR-CALL-003",
+  "criterion": "Inspect runtime warnings as well as compilation; do not assume successful compilation establishes type correctness.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

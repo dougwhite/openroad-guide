@@ -1,0 +1,8 @@
+{
+  "starting_component": "runtests",
+  "description": "Candidate rule compliance probes",
+  "included_applications": [
+    "UnitTestFramework"
+  ],
+  "database_type": "2"
+}

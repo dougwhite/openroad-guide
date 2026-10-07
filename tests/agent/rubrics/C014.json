@@ -1,0 +1,14 @@
+{
+  "case": "C014",
+  "rule": "OR-CALL-004",
+  "criterion": "Shared object mutation does not require BYREF; distinguish reference replacement and test copyback timing separately.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

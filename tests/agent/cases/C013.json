@@ -1,0 +1,5 @@
+{
+  "id": "C013",
+  "task": "A 4GL caller supplies the wrong type for a named argument. Where should validation look for evidence? Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

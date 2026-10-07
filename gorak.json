@@ -1,0 +1,14 @@
+{
+  "name": "openroad-guide",
+  "version": "0.1.0",
+  "description": "Native evidence for OpenROAD guidance",
+  "author": "Doug White",
+  "license": "MIT",
+  "tests": [
+    {
+      "application": "guide_tests",
+      "component": "runtests",
+      "timeout_seconds": 180
+    }
+  ]
+}

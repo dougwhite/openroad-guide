@@ -1,0 +1,14 @@
+{
+  "case": "C007",
+  "rule": "OR-ARRAY-002",
+  "criterion": "Sequential creation is supported; gap insertion needs explicit handling and must not be assumed.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

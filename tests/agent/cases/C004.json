@@ -1,0 +1,5 @@
+{
+  "id": "C004",
+  "task": "An event handler returns early on invalid input using RETURN. The window must stay open. Review and correct the flow. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

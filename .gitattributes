@@ -1,0 +1,5 @@
+*.w4gl text eol=lf
+*.wml text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf

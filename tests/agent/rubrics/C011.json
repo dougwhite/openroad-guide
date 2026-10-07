@@ -1,0 +1,14 @@
+{
+  "case": "C011",
+  "rule": "OR-CALL-001",
+  "criterion": "Omission is allowed and uses default; named order need not match declaration.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

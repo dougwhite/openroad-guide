@@ -1,0 +1,14 @@
+{
+  "case": "C016",
+  "rule": "OR-FRAME-001",
+  "criterion": "Review synchronous continuation, return handling, child lifetime and parameter semantics; OPENFRAME is not a drop-in substitute.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

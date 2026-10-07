@@ -1,0 +1,5 @@
+{
+  "id": "C015",
+  "task": "Review an IF amount = NULL guard and suggest the intended test. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

@@ -1,0 +1,14 @@
+{
+  "case": "C004",
+  "rule": "OR-EVENT-001",
+  "criterion": "Use RESUME for early event termination; RETURN can close the frame.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

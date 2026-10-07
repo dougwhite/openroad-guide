@@ -1,0 +1,14 @@
+{
+  "case": "C008",
+  "rule": "OR-ARRAY-003",
+  "criterion": "Do not assume append; specify intended position and explain default insertion at first row.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

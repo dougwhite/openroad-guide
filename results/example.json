@@ -1,0 +1,22 @@
+{
+  "model": "replace-with-exact-model",
+  "agent": "codex",
+  "agent_version": null,
+  "settings": {},
+  "guide_commit": null,
+  "pilot": true,
+  "trials": [
+    {
+      "case": "C001",
+      "baseline_score": null,
+      "guided_score": null,
+      "baseline_context_tokens": null,
+      "guided_context_tokens": null,
+      "guide_tokens_added": null,
+      "extended_articles_read": null,
+      "measurement": "unknown",
+      "baseline_transcript": null,
+      "guided_transcript": null
+    }
+  ]
+}

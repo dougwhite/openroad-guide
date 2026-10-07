@@ -1,0 +1,5 @@
+{
+  "id": "C002",
+  "task": "A nullable integer local is declared without a default. A guard uses IS NULL to detect whether it has been assigned. Review that guard. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

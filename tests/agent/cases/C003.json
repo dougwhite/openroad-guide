@@ -1,0 +1,5 @@
+{
+  "id": "C003",
+  "task": "A numeric EntryField has IsNullable TRUE and DefaultValue DV_SYSTEM. Its validation treats NULL as untouched. Review this assumption. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

@@ -1,0 +1,14 @@
+{
+  "case": "C001",
+  "rule": "OR-NAME-001",
+  "criterion": "Use a name at most 32 characters; explain the naming limit without inventing truncation behaviour.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

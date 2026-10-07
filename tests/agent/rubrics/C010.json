@@ -1,0 +1,14 @@
+{
+  "case": "C010",
+  "rule": "OR-DEFAULT-002",
+  "criterion": "Recognise implicit construction and possible redundant allocation; DEFAULT NULL makes deferred creation explicit.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

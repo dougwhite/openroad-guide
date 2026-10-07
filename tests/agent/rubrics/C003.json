@@ -1,0 +1,14 @@
+{
+  "case": "C003",
+  "rule": "OR-FIELD-001",
+  "criterion": "Expect zero under DV_SYSTEM; distinguish DefaultValue from IsNullable and request explicit default policy.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

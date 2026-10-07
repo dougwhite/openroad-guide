@@ -1,0 +1,5 @@
+{
+  "id": "C014",
+  "task": "A method receives an object and mutates an attribute. Must the argument be BYREF for the caller to observe that mutation? Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

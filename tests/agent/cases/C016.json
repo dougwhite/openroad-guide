@@ -1,0 +1,5 @@
+{
+  "id": "C016",
+  "task": "Replace CALLFRAME with OPENFRAME to make a dialog responsive. What caller assumptions must be reviewed? Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

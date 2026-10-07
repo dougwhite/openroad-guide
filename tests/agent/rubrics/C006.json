@@ -1,0 +1,14 @@
+{
+  "case": "C006",
+  "rule": "OR-ARRAY-001",
+  "criterion": "Visit live rows from 1 through LastRow; no zero-based conversion.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

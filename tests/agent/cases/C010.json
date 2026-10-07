@@ -1,0 +1,5 @@
+{
+  "id": "C010",
+  "task": "A class-typed local without DEFAULT NULL is followed by an unconditional Create call. Review whether the initial allocation is necessary. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

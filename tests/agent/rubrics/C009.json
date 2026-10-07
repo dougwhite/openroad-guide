@@ -1,0 +1,14 @@
+{
+  "case": "C009",
+  "rule": "OR-OBJECT-001",
+  "criterion": "Assignment aliases; create a distinct instance or appropriate copy for an independent backup.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

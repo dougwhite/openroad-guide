@@ -1,0 +1,14 @@
+{
+  "case": "C002",
+  "rule": "OR-DEFAULT-001",
+  "criterion": "Explain that nullable does not imply initially NULL; use DEFAULT NULL for the intended sentinel.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

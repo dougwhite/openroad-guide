@@ -1,0 +1,5 @@
+[classsource]
+superclass = "userobject"
+[attributes]
+value = "INTEGER NOT NULL"
+===

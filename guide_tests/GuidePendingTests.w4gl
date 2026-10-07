@@ -1,0 +1,57 @@
+[classsource]
+superclass = "testcase"
+[methods]
+testPending01 = "METHOD"
+testPending02 = "METHOD"
+testPending03 = "METHOD"
+testPending04 = "METHOD"
+testPending05 = "METHOD"
+testPending06 = "METHOD"
+testPending07 = "METHOD"
+testPending08 = "METHOD"
+testPending09 = "METHOD"
+===
+METHOD testPending01() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-NAME-001: see isolated probe specification');
+END
+
+METHOD testPending02() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-FIELD-001: see isolated probe specification');
+END
+
+METHOD testPending03() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-EVENT-001: see isolated probe specification');
+END
+
+METHOD testPending04() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-EVENT-002: see isolated probe specification');
+END
+
+METHOD testPending05() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-ARRAY-003: see isolated probe specification');
+END
+
+METHOD testPending06() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-CALL-002: see isolated probe specification');
+END
+
+METHOD testPending07() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-CALL-003: see isolated probe specification');
+END
+
+METHOD testPending08() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-CALL-004: see isolated probe specification');
+END
+
+METHOD testPending09() =
+BEGIN
+    G_Assert.skipTest(errortext = 'OR-FRAME-001: see isolated probe specification');
+END

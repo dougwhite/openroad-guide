@@ -1,0 +1,94 @@
+[classsource]
+superclass = "testcase"
+[methods]
+testScalarDefaults = "METHOD"
+testObjectDefaults = "METHOD"
+testReferenceAlias = "METHOD"
+testArrayOrigin = "METHOD"
+testSequentialGrowth = "METHOD"
+testOmittedArguments = "METHOD"
+testNullGuard = "METHOD"
+combine = "METHOD RETURNING INTEGER NOT NULL"
+===
+METHOD testScalarDefaults() =
+DECLARE
+    n = INTEGER;
+    explicitNull = INTEGER DEFAULT NULL;
+    s = VARCHAR(30);
+ENDDECLARE
+BEGIN
+    G_Assert.assertEquals(expectedInteger = 0, actualInteger = n, errortext = 'Implicit integer default');
+    G_Assert.assertNull(actualInteger = explicitNull, errortext = 'Explicit DEFAULT NULL');
+    G_Assert.assertEquals(expectedVarchar = '', actualVarchar = s, errortext = 'Implicit varchar default');
+END
+
+METHOD testObjectDefaults() =
+DECLARE
+    implicitObject = GuideRow;
+    deferredObject = GuideRow DEFAULT NULL;
+ENDDECLARE
+BEGIN
+    G_Assert.assertNotNull(actual = implicitObject, errortext = 'Implicit object creation');
+    G_Assert.assertNull(actual = deferredObject, errortext = 'Deferred object creation');
+END
+
+METHOD testReferenceAlias() =
+DECLARE
+    original = GuideRow;
+    alias = GuideRow DEFAULT NULL;
+ENDDECLARE
+BEGIN
+    original.value = 10;
+    alias = original;
+    alias.value = 20;
+    G_Assert.assertEquals(expectedInteger = 20, actualInteger = original.value, errortext = 'Assignment shares object');
+END
+
+METHOD testArrayOrigin() =
+DECLARE
+    rows = ARRAY OF GuideRow;
+ENDDECLARE
+BEGIN
+    rows[1] = GuideRow.Create();
+    rows[1].value = 17;
+    G_Assert.assertEquals(expectedInteger = 1, actualInteger = rows.LastRow, errortext = 'First live row');
+    G_Assert.assertEquals(expectedInteger = 17, actualInteger = rows[1].value, errortext = 'Row one value');
+END
+
+METHOD testSequentialGrowth() =
+DECLARE
+    rows = ARRAY OF GuideRow;
+ENDDECLARE
+BEGIN
+    rows[1] = GuideRow.Create();
+    rows[2] = GuideRow.Create();
+    G_Assert.assertEquals(expectedInteger = 2, actualInteger = rows.LastRow, errortext = 'Sequential growth');
+END
+
+METHOD testOmittedArguments() =
+BEGIN
+    G_Assert.assertEquals(expectedInteger = 12, actualInteger = CurObject.combine(), errortext = 'Both omitted');
+    G_Assert.assertEquals(expectedInteger = 32, actualInteger = CurObject.combine(left = 3), errortext = 'Right omitted');
+    G_Assert.assertEquals(expectedInteger = 45, actualInteger = CurObject.combine(right = 5, left = 4), errortext = 'Named order');
+END
+
+METHOD combine(left = INTEGER DEFAULT 1, right = INTEGER DEFAULT 2) =
+BEGIN
+    RETURN left * 10 + right;
+END
+
+METHOD testNullGuard() =
+DECLARE
+    n = INTEGER DEFAULT NULL;
+    visited = INTEGER DEFAULT 0;
+ENDDECLARE
+BEGIN
+    IF n = NULL THEN
+        visited = 1;
+    ENDIF;
+    G_Assert.assertEquals(expectedInteger = 0, actualInteger = visited, errortext = 'Equality does not detect NULL');
+    IF n IS NULL THEN
+        visited = 2;
+    ENDIF;
+    G_Assert.assertEquals(expectedInteger = 2, actualInteger = visited, errortext = 'IS NULL detects NULL');
+END

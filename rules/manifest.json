@@ -1,0 +1,130 @@
+[
+  {
+    "id": "OR-NAME-001",
+    "title": "Identifier length",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C001",
+    "evidence": []
+  },
+  {
+    "id": "OR-DEFAULT-001",
+    "title": "Scalar defaults",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C002",
+    "evidence": []
+  },
+  {
+    "id": "OR-FIELD-001",
+    "title": "Field default policy",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C003",
+    "evidence": []
+  },
+  {
+    "id": "OR-EVENT-001",
+    "title": "RETURN in events",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C004",
+    "evidence": []
+  },
+  {
+    "id": "OR-EVENT-002",
+    "title": "RESUME and event flow",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C005",
+    "evidence": []
+  },
+  {
+    "id": "OR-ARRAY-001",
+    "title": "Array origin",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C006",
+    "evidence": []
+  },
+  {
+    "id": "OR-ARRAY-002",
+    "title": "Array growth",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C007",
+    "evidence": []
+  },
+  {
+    "id": "OR-ARRAY-003",
+    "title": "InsertRow position",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C008",
+    "evidence": []
+  },
+  {
+    "id": "OR-OBJECT-001",
+    "title": "Reference assignment",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C009",
+    "evidence": []
+  },
+  {
+    "id": "OR-DEFAULT-002",
+    "title": "Implicit object creation",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C010",
+    "evidence": []
+  },
+  {
+    "id": "OR-CALL-001",
+    "title": "Omitted named arguments",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C011",
+    "evidence": []
+  },
+  {
+    "id": "OR-CALL-002",
+    "title": "Unknown arguments",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C012",
+    "evidence": []
+  },
+  {
+    "id": "OR-CALL-003",
+    "title": "Argument type mismatch",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C013",
+    "evidence": []
+  },
+  {
+    "id": "OR-CALL-004",
+    "title": "Objects and BYREF",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C014",
+    "evidence": []
+  },
+  {
+    "id": "OR-NULL-001",
+    "title": "NULL comparisons",
+    "status": "candidate",
+    "native_status": "unrun-draft",
+    "case": "C015",
+    "evidence": []
+  },
+  {
+    "id": "OR-FRAME-001",
+    "title": "Frame invocation",
+    "status": "candidate",
+    "native_status": "specified-not-implemented",
+    "case": "C016",
+    "evidence": []
+  }
+]

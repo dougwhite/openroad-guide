@@ -1,0 +1,5 @@
+{
+  "id": "C012",
+  "task": "A caller supplies a named argument absent from a 4GL procedure declaration. Explain the likely diagnostic stage and what to fix. Answer concisely. Explain your reasoning and propose a correction where needed.",
+  "files": {}
+}

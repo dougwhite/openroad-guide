@@ -1,0 +1,7 @@
+[proc4glsource]
+===
+PROCEDURE runtests() =
+BEGIN
+    CALLPROC executeTests(test = GuideCoreTests.Create());
+    CALLPROC executeTests(test = GuidePendingTests.Create());
+END

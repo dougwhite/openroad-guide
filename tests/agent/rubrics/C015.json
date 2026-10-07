@@ -1,0 +1,14 @@
+{
+  "case": "C015",
+  "rule": "OR-NULL-001",
+  "criterion": "Use IS NULL; equality can evaluate unknown and fail to take the branch.",
+  "grading": "manual-until-native-verified",
+  "score": {
+    "0": "incorrect",
+    "1": "partially correct",
+    "2": "correct"
+  },
+  "disqualifiers": [
+    "Unsupported claims presented as verified facts"
+  ]
+}

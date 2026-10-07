@@ -1,0 +1,15 @@
+{
+  "rule": "OR-...-001",
+  "status": "unrun",
+  "openroad_version": null,
+  "gorak_version": null,
+  "platform": null,
+  "database": null,
+  "source_commit": null,
+  "command": null,
+  "expected": null,
+  "observed": null,
+  "logs": [],
+  "scope_verified": [],
+  "limitations": []
+}
